@@ -1,0 +1,178 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url("https://newevolutiondesigns.com/images/freebies/abstract-background-25.jpg");
+}
+main{
+	position: relative;
+	left: 28.5vw;
+	top: 4vw;
+}
+/*list*/
+.todo-container{
+	width: 47vw;
+	height: 40vw;
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+	border-radius: 7px 7px 0 0;
+	list-style-type: none;
+	background-color: white;
+}
+.todo-header{
+	width:100%;
+	height: 7.2vw;
+	display: inline-flex;
+	position: relative;
+	border-bottom: 1px solid #4a3c3c;
+}
+.date-wrapper{
+    width: 113vw;
+    height: 100%;
+    position: relative;
+    user-select: none;
+}
+.day-wrapper{
+	width: 100%;
+	height: 3.5vw;
+	text-align: center;
+	font-size: 3.5vw;
+	font-family: 'Poiret One', cursive;
+	font-weight: 700;
+	color: #544646;
+}
+.month-wrapper{
+	width: 100%;
+	margin-top: 1vw;
+	font-size: 2vw;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	color: #888888;
+}
+.todo-count-wrapper{
+	position: relative;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 2.5vw;
+	user-select: none;
+}
+.todo-count{
+    position: relative;
+    top: 2vw;
+    font-family: 'Dancing Script', cursive;
+    color: #4c3f3f;
+}
+.todo-item{
+	position: relative;
+	width: 100%;
+	height: 5vw;
+	margin: 0;
+	padding: 0;
+	border-bottom:1px solid white;
+	border-radius: 2px;
+	border-bottom: 1px solid #4a3c3c;
+}
+.list-checkbox{
+	transform: scale(2);
+	margin: 2vw;
+}
+.remove-item-btn{
+	width: 2vw;
+	height: 2vw;
+	font-size: 1vw;
+	position: absolute;
+	right: 0;
+	top: .5vw;
+	user-select: none;
+	font-family: 'Poiret One', cursive;
+}
+.remove-item-btn:hover{
+	cursor: pointer;
+}
+.list-text{
+	font-size: 2vw;
+	position: absolute;
+	left: 5vw;
+	bottom: 1.4vw;
+	color: #4a3c3c;
+	font-family: 'Poiret One', cursive;
+}
+.list-time{
+	display: inline-block;
+	position: absolute;
+	right: 2vw;
+	top: 2vw;
+	font-size: 1vw;
+	color: #756a69;
+	font-family: 'Poiret One', cursive;
+	user-select: none;
+}
+
+
+/*end list*/
+
+/*start add btn stuff*/
+.add-item-wrapper{
+	position: relative;
+	width: 47vw;
+	height: 5vw;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	border-top: 1px solid #4a3c3c52;
+	border-radius: 0 0 7px 7px;
+	text-align: center;
+	font-size: 4vw;
+	color: #7d7979c9;
+	font-family: 'Denk One', sans-serif;
+}
+#show-add-btn:hover{
+	cursor: pointer;
+}
+#add-item-btn{
+	display: none;
+	position: absolute;
+	right: .5vw;
+	top: -.7vw;
+	font-size: 5vw;
+	background-color: transparent !important;
+	cursor: pointer;
+}
+#minus-item-btn{
+	display: none;
+	position: absolute;
+	right: 4vw;
+	top: -.35vw;
+	cursor: pointer;
+	background-color: transparent;
+}
+#task-text-input{
+	display: none;
+    width: 30vw;
+    height: 3vw;
+    position: absolute;
+    left: 2vw;
+    top: 1vw;
+    font-size: 2vw;
+    font-family: 'Poiret One', cursive;
+    border: 1px solid #c4c0c0;
+    border-radius: 3px;
+    text-align: center;
+}
+#task-time-input{
+	display: none;
+    position: absolute;
+    right: 7vw;
+    top: 1.7vw;
+    border: 1px solid #c4c0c0;
+    border-radius: 3px;
+    height: 2vw;
+    font-family: 'Poiret One', cursive;
+}
+
+
+/*end add btn stuff*/

@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One|Dancing+Script|Denk+One" rel="stylesheet">
+  <title>To Do List</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+	<main>
+  	<ul class="todo-container">
+  		<li class = "todo-header">
+  			<div class="date-wrapper">
+  				<div class="day-wrapper">Monday</div>
+  				<div class="month-wrapper">December 4th, 2017</div>
+  			</div>
+  			<div class="todo-count-wrapper"><a class="todo-count">0 Tasks</a></div>
+  		</li>
+  	</ul>
+  	<div class="add-item-wrapper">
+  		<a id="show-add-btn">+</a>
+  		<a id = "minus-item-btn">-</a>
+  		<a id = "add-item-btn">+</a>
+  		<input id="task-text-input" maxlength="35" type="text" placeholder="enter task">
+  		<input id="task-time-input" type="time" name="time" />
+  	</div>
+  </main>
+	<script type="text/javascript" src="js/content.js"></script>
 </body>
 </html>
